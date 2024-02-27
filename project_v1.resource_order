@@ -9,6 +9,7 @@
     {"name":"Fontes","order":7,"path":"folders/Fontes.yy",},
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
+    {"name":"item","order":4,"path":"folders/Objetos/item.yy",},
     {"name":"map","order":2,"path":"folders/Objetos/map.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
@@ -17,7 +18,6 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":16,"path":"folders/Tile Sets.yy",},
-    {"name":"item","order":4,"path":"folders/Objetos/item.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_slide","order":6,"path":"sprites/spr_player_slide/spr_player_slide.yy",},
