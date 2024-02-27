@@ -1,11 +1,28 @@
 var _x_direction = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _jump = keyboard_check_pressed(vk_space);
 var _ground = place_meeting(x, y + 1, obj_wall);
+var _on_wall = place_meeting(x - 5, y, obj_wall) - place_meeting(x + 5, y, obj_wall);
 
-if (_x_direction != 0) image_xscale = _x_direction;
+lock_movement = max(lock_movement - 1, 0);
 
-_x_speed = _x_direction * _speed;
-_y_speed++;
+if (_on_wall != 0) { _y_speed = min(_y_speed + 1, 5); } 
+else { _y_speed++; }
+
+if (lock_movement <= 0) {
+	if (_x_direction != 0) image_xscale = _x_direction;
+	_x_speed = _x_direction * _speed;
+
+	if (_jump) {
+	
+		if (_ground) _y_speed = -15;
+	
+		if (_on_wall != 0) {
+			_y_speed = -15;
+			_x_speed = _on_wall * _speed;
+			lock_movement = 10;
+		}
+	}
+}
 
 if (_ground) {
 	if (_x_direction != 0) {
@@ -13,8 +30,11 @@ if (_ground) {
 	} else {
 		sprite_index = spr_player_idle_strip;
 	}
-
-	if (_jump) _y_speed = -15;
+	
+} else if (_on_wall != 0) {
+	image_xscale = _on_wall;
+	sprite_index = spr_player_slide
+	
 } else {
 	sprite_index = spr_player_jump
 }
