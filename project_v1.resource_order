@@ -26,6 +26,7 @@
     {"name":"spr_player_idle_strip","order":3,"path":"sprites/spr_player_idle_strip/spr_player_idle_strip.yy",},
     {"name":"spr_coin_strip12","order":2,"path":"sprites/spr_coin_strip12/spr_coin_strip12.yy",},
     {"name":"spr_background","order":1,"path":"sprites/spr_background/spr_background.yy",},
+    {"name":"rm_parkour","order":1,"path":"rooms/rm_parkour/rm_parkour.yy",},
     {"name":"TileSet1","order":1,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"spr_ground","order":7,"path":"sprites/spr_ground/spr_ground.yy",},
     {"name":"spr_player_jump","order":4,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
