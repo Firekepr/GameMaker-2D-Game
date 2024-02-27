@@ -8,7 +8,14 @@ var _current_y = camera_get_view_y(view_camera[0]);
 var _new_x = lerp(_current_x, _x_camera, 0.1);
 var _new_y = lerp(_current_y, _y_camera, 0.1);
 
-camera_set_view_pos(view_camera[0], _new_x, _new_y);
+if (_player_focus) {
+	_player_focus = false;
+	camera_set_view_pos(view_camera[0], _x_camera, _y_camera);
+} else {
+	camera_set_view_pos(view_camera[0], _new_x, _new_y);	
+}
+
+
 
 layer_x(layer_get_id("Backgrond"), _new_x * 0.65);
 layer_y(layer_get_id("Backgrond"), _new_y * 0.65);
