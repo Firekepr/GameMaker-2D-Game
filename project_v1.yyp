@@ -46,7 +46,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_player_run_strip","path":"sprites/spr_player_run_strip/spr_player_run_strip.yy",},},
     {"id":{"name":"spr_dash_unlock","path":"sprites/spr_dash_unlock/spr_dash_unlock.yy",},},
-    {"id":{"name":"spr_dash","path":"sprites/spr_dash/spr_dash.yy",},},
+    {"id":{"name":"spr_player_dash","path":"sprites/spr_player_dash/spr_player_dash.yy",},},
     {"id":{"name":"obj_dash_unlocker","path":"objects/obj_dash_unlocker/obj_dash_unlocker.yy",},},
     {"id":{"name":"rm_climb","path":"rooms/rm_climb/rm_climb.yy",},},
     {"id":{"name":"spr_player_idle_strip","path":"sprites/spr_player_idle_strip/spr_player_idle_strip.yy",},},
