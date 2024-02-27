@@ -20,6 +20,7 @@
     {"name":"map","order":8,"path":"folders/Sprites/map.yy",},
     {"name":"Tile Sets","order":16,"path":"folders/Tile Sets.yy",},
     {"name":"item","order":9,"path":"folders/Sprites/item.yy",},
+    {"name":"player","order":10,"path":"folders/Sprites/player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_slide","order":6,"path":"sprites/spr_player_slide/spr_player_slide.yy",},
