@@ -28,8 +28,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sons","folderPath":"folders/Sons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"map","folderPath":"folders/Sprites/map.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"item","folderPath":"folders/Sprites/item.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -43,6 +44,9 @@
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_player_run_strip","path":"sprites/spr_player_run_strip/spr_player_run_strip.yy",},},
+    {"id":{"name":"spr_dash_unlock","path":"sprites/spr_dash_unlock/spr_dash_unlock.yy",},},
+    {"id":{"name":"obj_dash_unlocker","path":"objects/obj_dash_unlocker/obj_dash_unlocker.yy",},},
+    {"id":{"name":"rm_climb","path":"rooms/rm_climb/rm_climb.yy",},},
     {"id":{"name":"spr_player_idle_strip","path":"sprites/spr_player_idle_strip/spr_player_idle_strip.yy",},},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
     {"id":{"name":"spr_coin_strip12","path":"sprites/spr_coin_strip12/spr_coin_strip12.yy",},},
@@ -62,6 +66,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
     {"roomId":{"name":"rm_parkour","path":"rooms/rm_parkour/rm_parkour.yy",},},
+    {"roomId":{"name":"rm_climb","path":"rooms/rm_climb/rm_climb.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
