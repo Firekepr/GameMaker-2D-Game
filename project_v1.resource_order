@@ -22,6 +22,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_slide","order":6,"path":"sprites/spr_player_slide/spr_player_slide.yy",},
+    {"name":"obj_exit","order":2,"path":"objects/obj_exit/obj_exit.yy",},
     {"name":"obj_camera","order":3,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_player_run_strip","order":5,"path":"sprites/spr_player_run_strip/spr_player_run_strip.yy",},
     {"name":"spr_player_idle_strip","order":3,"path":"sprites/spr_player_idle_strip/spr_player_idle_strip.yy",},
@@ -31,6 +32,7 @@
     {"name":"obj_kill","order":1,"path":"objects/obj_kill/obj_kill.yy",},
     {"name":"TileSet1","order":1,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"spr_ground","order":7,"path":"sprites/spr_ground/spr_ground.yy",},
+    {"name":"spr_exit","order":1,"path":"sprites/spr_exit/spr_exit.yy",},
     {"name":"spr_player_jump","order":4,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
   ],
 }

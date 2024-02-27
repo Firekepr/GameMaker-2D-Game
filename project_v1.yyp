@@ -39,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"spr_player_slide","path":"sprites/spr_player_slide/spr_player_slide.yy",},},
+    {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"spr_player_run_strip","path":"sprites/spr_player_run_strip/spr_player_run_strip.yy",},},
@@ -53,6 +54,7 @@
     {"id":{"name":"obj_kill","path":"objects/obj_kill/obj_kill.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
+    {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_kill","path":"sprites/spr_kill/spr_kill.yy",},},
     {"id":{"name":"rm_room","path":"rooms/rm_room/rm_room.yy",},},
