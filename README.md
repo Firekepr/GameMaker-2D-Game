@@ -1,6 +1,8 @@
 # GameMaker-2D-Game
 
-This project was made to study GML and the following videos were used as a basis:
+This project was created to study GML, it is a simple 2D platform game that I will implement for learning. I used videos from the Blobfish YouTube channel as a base, below are the videos:
+
+Bloblfish channel: https://www.youtube.com/@blobfishdev/featured
 
 Basic: https://www.youtube.com/watch?v=uKXCI1qC_LQ
 
