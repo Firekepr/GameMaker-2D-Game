@@ -1,2 +1,2 @@
-other.x = 32;
-other.y = 448;
+other.x = _x_target;
+other.y = _y_target;
