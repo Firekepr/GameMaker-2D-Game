@@ -25,7 +25,7 @@ if (lock_movement <= 0 && player_dash.duration <= 0) {
 	
 		if (_ground) _y_speed = -15;
 	
-		if (_on_wall != 0) {
+		if (_on_wall != 0 && !_ground) {
 			_y_speed = -15;
 			_x_speed = _on_wall * _speed;
 			lock_movement = 10;

@@ -17,10 +17,10 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"map","order":8,"path":"folders/Sprites/map.yy",},
-    {"name":"Tile Sets","order":16,"path":"folders/Tile Sets.yy",},
     {"name":"item","order":9,"path":"folders/Sprites/item.yy",},
+    {"name":"map","order":8,"path":"folders/Sprites/map.yy",},
     {"name":"player","order":10,"path":"folders/Sprites/player.yy",},
+    {"name":"Tile Sets","order":16,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_slide","order":4,"path":"sprites/spr_player_slide/spr_player_slide.yy",},
