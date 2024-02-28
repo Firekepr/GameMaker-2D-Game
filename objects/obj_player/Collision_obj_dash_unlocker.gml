@@ -1,2 +1,2 @@
 instance_destroy(other)
-player_power._dash = true;
+player_dash.unlock = true;
